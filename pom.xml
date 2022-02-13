@@ -5,7 +5,7 @@
 
     <groupId>com.github.shoothzj</groupId>
     <artifactId>java-parent</artifactId>
-    <version>3.1.6</version>
+    <version>3.1.7</version>
     <packaging>pom</packaging>
 
     <properties>
@@ -169,6 +169,13 @@
                         <groupId>org.projectlombok</groupId>
                         <artifactId>lombok-maven-plugin</artifactId>
                         <version>1.18.20.0</version>
+                        <dependencies>
+                            <dependency>
+                                <groupId>org.projectlombok</groupId>
+                                <artifactId>lombok</artifactId>
+                                <version>1.18.22</version>
+                            </dependency>
+                        </dependencies>
                         <executions>
                             <execution>
                                 <phase>generate-sources</phase>

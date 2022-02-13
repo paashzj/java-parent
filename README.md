@@ -6,6 +6,6 @@
 <parent>
     <groupId>com.github.shoothzj</groupId>
     <artifactId>java-parent</artifactId>
-    <version>3.1.6</version>
+    <version>3.1.7</version>
 </parent>
 ```
